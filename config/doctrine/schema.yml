@@ -1,4 +1,4 @@
-TasksTask
+TasksTask:
   actAs: { Timestampable: ~ }
   columns:
     task_id: { type: integer, notnull: true }
