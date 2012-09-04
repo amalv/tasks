@@ -1,7 +1,6 @@
 TasksTask:
   actAs: { Timestampable: ~ }
   columns:
-    task_id: { type: integer, notnull: true }
     title: { type: string(255), notnull: true }
     description: { type: string(4000) } 
     is_done: { type: boolean, notnull: true, default: 0 }
